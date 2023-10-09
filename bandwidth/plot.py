@@ -28,7 +28,7 @@ for i in range(3):
     y1JC = y1J.copy()[before:-1]
 
     if sendType[i] == 'Send' or sendType[i] == 'Ssend':
-        y1I += 80
+        y1I += 40
 
     y2I = np.array(stateI['bandwidth'])
     y2J = np.array(stateJ['bandwidth'])[before:-1]
